@@ -1,3 +1,4 @@
+using System;
 using Terraria;
 using Terraria.GameContent.Bestiary;
 using Terraria.ID;
