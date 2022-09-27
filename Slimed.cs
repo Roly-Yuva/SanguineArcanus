@@ -9,6 +9,9 @@ namespace SanguineArcanus.Content.Buffs
         {
             DisplayName.SetDefault("Slimed");
             Description.SetDefault("The slime slows you down and makes you more vulnerable to fire.");
+            Main.debuff[Type] = true;
+            Main.pvpBuff[Type] = true;
+            Main.buffNoSave[Type] = true;
         }
 
         public override void Update(Player player, ref int buffIndex)
