@@ -1,4 +1,4 @@
-using Terraria;
+/*using Terraria;
 using Terraria.ModLoader;
 
 namespace SanguineArcanus.Content.Buffs
@@ -14,10 +14,20 @@ namespace SanguineArcanus.Content.Buffs
             Main.buffNoSave[Type] = true;
         }
 
+        public override void Update(NPC npc, ref int buffIndex)
+        {
+            npc.moveSpeed *= 0.9f;
+        }
+
         public override void Update(Player player, ref int buffIndex)
         {
             player.moveSpeed *= 0.9f;
             
         }
+
+        public override bool RightClick(int buffIndex)
+        {
+            return false;
+        }
     }
-}
+}*/
