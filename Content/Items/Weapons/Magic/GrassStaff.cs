@@ -26,7 +26,7 @@ namespace SanguineArcanus.Content.Items.Weapons.Magic
             Item.knockBack = 5; // average
             Item.value = 250; // 2 silver 50 copper
             Item.rare = ItemRarityID.White;
-            Item.UseSound = SoundID.Tink;
+            Item.UseSound = SoundID.Item45;
             Item.shoot = ModContent.ProjectileType<GrassBolt>();
             Item.shootSpeed = 2;
             Item.mana = 4;
