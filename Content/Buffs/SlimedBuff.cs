@@ -1,14 +1,14 @@
-/*using Terraria;
+using Terraria;
 using Terraria.ModLoader;
 
 namespace SanguineArcanus.Content.Buffs
 {
-    public class Slimed : ModBuff
+    public class SlimedBuff : ModBuff
     {
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Slimed");
-            Description.SetDefault("The slime slows you down and makes you more vulnerable to fire.");
+            Description.SetDefault("The slime slows you down."/* and makes you more vulnerable to fire."*/);
             Main.debuff[Type] = true;
             Main.pvpBuff[Type] = true;
             Main.buffNoSave[Type] = true;
@@ -16,7 +16,7 @@ namespace SanguineArcanus.Content.Buffs
 
         public override void Update(NPC npc, ref int buffIndex)
         {
-            npc.moveSpeed *= 0.9f;
+            //npc.moveSpeed *= 0.9f;
         }
 
         public override void Update(Player player, ref int buffIndex)
@@ -30,4 +30,4 @@ namespace SanguineArcanus.Content.Buffs
             return false;
         }
     }
-}*/
+}

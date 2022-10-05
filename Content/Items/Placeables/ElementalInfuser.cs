@@ -1,12 +1,12 @@
-using SanguineArcanus.Content.Items.Materials;
+/*using SanguineArcanus.Content.Items.Materials;
 using SanguineArcanus.Content.Tiles.CraftingStations;
 using Terraria;
-using Terraira.ID;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace SanguineArcanus.Content.Item.Placeables
 {
-    public class ElementalInfuserItem : ModItem
+    public class ElementalInfuser : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -20,7 +20,7 @@ namespace SanguineArcanus.Content.Item.Placeables
             Item.height = 15;
             Item.value = 10000; // 1 gold
             Item.rare = ItemRarityID.Blue;
-            Item.createTile = ModContent.TileType<ElementalInfuserTile>();
+            Item.createTile = ModContent.TileType<Tiles.CraftingStations.ElementalInfuser>();
         }
 
         public override void AddRecipes()
@@ -32,4 +32,4 @@ namespace SanguineArcanus.Content.Item.Placeables
             recipe.Register();
         }
     }
-}
+}*/
