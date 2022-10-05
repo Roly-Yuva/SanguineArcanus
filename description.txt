@@ -1,3 +1,5 @@
 A new content mod for Terraria. As of now adds...
 2 new weapons
-1 new material
+1 new accessory
+2 new materials
+1 new crafting station

@@ -1,10 +1,10 @@
 using SanguineArcanus.Content.Items.Materials;
-using SanguineArcanus.Content.Tiles.CraftingStations;
+//using SanguineArcanus.Content.Tiles.CraftingStations;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace SanguineArcanus.Content.Items
+namespace SanguineArcanus.Content.Items.Accessories
 {
     public class SanguineRune : ModItem
     {
@@ -25,7 +25,7 @@ namespace SanguineArcanus.Content.Items
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.meleeDamage *= 1.10f;
+            player.statDefense += 3;
             player.lifeRegen += 3;
         }
 
@@ -34,7 +34,7 @@ namespace SanguineArcanus.Content.Items
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ModContent.ItemType<Content.Items.Materials.ArcaneSigil>(), 1);
             recipe.AddIngredient(ModContent.ItemType<Content.Items.Materials.SanguineEssence>(), 5);
-            recipe.AddTile(ModContent.TileType<ElementalInfuserTile>);
+            recipe.AddTile(TileID.WorkBenches);//recipe.AddTile(ModContent.TileType<Tiles.CraftingStations.ElementalInfuser>());
             recipe.Register();
         }
     }
