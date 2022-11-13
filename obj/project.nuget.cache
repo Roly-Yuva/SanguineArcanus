@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7JAokArD+TqIidLHmkEpidoquf5u7RxQ4Olx9/NhQ/GUjuN9dwgvgRhqrxVmc6hXs2DGLZIYNyqh38Mi3uECyg==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\aleda\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SanguineArcanus\\SanguineArcanus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleda\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
