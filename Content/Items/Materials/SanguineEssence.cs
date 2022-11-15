@@ -14,8 +14,8 @@ namespace SanguineArcanus.Content.Items.Materials
 
         public override void SetDefaults()
         {
-            Item.width = 18;
-            Item.height = 18;
+            Item.width = 34;
+            Item.height = 36;
             Item.maxStack = 999;
             Item.value = 250; // 2 silver 50 copper
             Item.rare = ItemRarityID.Green;
